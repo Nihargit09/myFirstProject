@@ -4,7 +4,6 @@ public class Pallindrom {
 		String str="madam";
 		int n=str.length();
 		String temp=str;
-		
 		String rev="";
 		for(int i=n-1;i>=0;i--)
 		{
