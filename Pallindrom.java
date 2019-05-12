@@ -4,13 +4,13 @@ public class Pallindrom {
 		String str="madam";
 		int n=str.length();
 		String temp=str;
-		String rev="";
+		String reverse="";
 		for(int i=n-1;i>=0;i--)
 		{
-			rev=rev+str.charAt(i);
+			reverse=reverse+str.charAt(i);
 			
 		}
-		if(temp.equals(rev))
+		if(temp.equals(reverse))
 		{
 			System.out.println(str+"it is pallindrom");
 		}
